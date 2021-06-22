@@ -1,0 +1,47 @@
+  <div id="conta" class="mt-3">
+   <div class="cont mt-5">
+       <form class="cont"  #ownerForm = "ngForm" (ngSubmit) = "onSubmit(ownerForm)">
+           <div class="form-group ">
+               <br>
+               <h2><b>Add A New Owner</b></h2>
+               <div>
+                   <label>First Name</label>
+
+                   <input type="text" class="form-control" id="firstName" ngModel name="firstName" placeholder="First Name">
+               </div>
+               <div>
+                   <label>Last Name</label>
+
+                   <input type="text" class="form-control" id="lastName" ngModel name="lastName" placeholder="Last Name">
+               </div>
+               <div>
+                   <label>Address</label>
+
+                   <input type="text" class="form-control" id="address" ngModel name="address" placeholder="Address">
+               </div>
+               <div>
+                  <label>Pet Name</label>
+
+                  <input type="text" class="form-control" id="petName" ngModel name="petName" placeholder="Pet Name">
+              </div>
+               <div>
+                   <label>Email</label>
+
+                   <input type="text" class="form-control" id="email" ngModel name="email" placeholder="Email">
+              </div>
+               <div>
+                   <label>Phone Number</label>
+                   <input type="text" class="form-control" id="phoneNumber" ngModel name="phoneNumber" placeholder="Phone Number">
+               </div>
+<br><br>
+               <button  type="submit" class="btn btn-secondary btn-lg">Add</button>
+           </div>
+
+       </form>
+       <div class="sub-cont">
+           <div class="img">
+
+           </div>
+
+       </div>
+   </div>
