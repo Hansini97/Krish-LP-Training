@@ -1,0 +1,1 @@
+export const MONGO_CONNECTION="mongodb+srv://root:Root123@cluster0.ap2kb.mongodb.net/ems?retryWrites=true&w=majority"
